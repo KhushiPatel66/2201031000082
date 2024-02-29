@@ -1,0 +1,47 @@
+body
+{
+    font-family: "inter",serif;
+    background-color: #F5F5F3;
+    overflow-x: hidden;
+}
+.navigate
+{
+    display: flex;
+    position :relative;
+    color: #1E1E1E;
+    margin-top: -3%;
+    margin-left: 35%;
+    font-size: 20px;
+}
+.cart
+{
+    font-family: "inter",serif;
+    display: flex;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    opacity: 0.6;
+}
+.row1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.img1:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-out;
+    border-radius: 20px;
+}
+.arrow
+{
+    transform: scale(2) rotate(180deg);
+    cursor: pointer;
+}

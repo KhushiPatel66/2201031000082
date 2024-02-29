@@ -1,0 +1,44 @@
+*
+{
+    font-family: "Payfair Display",serif;
+}
+.navigate
+{
+    display: flex;
+    position :relative;
+    color: #1E1E1E;
+    margin-top: -3%;
+    margin-left: 35%;
+    font-size: 20px;
+}
+body
+{
+    font-family: "inter",serif;
+    background-color: #F5F5F3;
+    overflow-x: hidden;
+}
+.cart
+{
+    font-family: "inter",serif;
+    display: flex;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    opacity: 0.6;
+}
+.arrow
+{
+    transform: scale(2) rotate(180deg);
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: -1370px;
+}

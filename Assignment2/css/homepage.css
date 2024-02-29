@@ -1,0 +1,150 @@
+body
+{
+    font-family: "inter",serif;
+    background-color: #F5F5F3;
+    overflow-x: hidden;
+}
+
+.navigate
+{
+    display: flex;
+    position :relative;
+    color: #1E1E1E;
+    margin-top: -3%;
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+.cart
+{
+    font-family: "inter",serif;
+    display: flex;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    opacity: 0.6;
+}
+
+
+.display_box1
+{
+    display: flex;
+    margin-top: 8%;
+    width: 97%;
+    margin-left: -1%;
+    height: 400px;
+    width: 1480px;
+    border-radius: 20px;
+    background-color: #BCBABA;
+}
+.display_box2
+{
+    display: flex;
+    margin-top: 4%;
+    width: 97%;
+    margin-left: 3%;
+    height: 450px;
+    width: 1470px;
+    border-radius: 20px;
+    background-color: #DDCBB1;
+}
+.display_box3
+{
+    display: flex;
+    margin-top: 4%;
+    width: 97%;
+    margin-left: -1%;
+    height: 450px;
+    width: 1470px;
+    border-radius: 20px;
+    background-color: #E7BFBE;
+}
+
+.Eyeglasses
+{
+    padding-left: 6%;
+    width:35%
+}
+.spec1_display
+{
+    height: 300px;
+    padding-left: 38%;
+    padding-top: 8%;
+}
+.spec3_display
+{
+    padding-top: 4%;
+    height: 400px;
+    padding-left: 26%;
+}
+.spec2_display
+{ 
+    height: 600px;
+    width: 70%;
+    padding-left: 6%;
+    margin-top: -10.5%;
+}
+
+.specx
+{
+    width: 35%;
+    padding-left: 11%;
+}
+
+.sun_dis
+{
+    position: relative;
+    width: 100%;
+}
+.dis_img
+{
+    width: 100%;
+    height: auto;
+}
+.shopnow_btn
+{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    background-color: #F5F5F3;
+    color: black;
+    border: 3px solid black;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.shopnow_btn:hover
+{
+    background-color: black;
+    transform: translateY(-2px) ;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.info_tab
+{
+   position: relative;
+}
+.info_logo
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 10%;
+    height: 100px;
+}
+.info_words
+{
+    display: flex;
+    width: 100%;
+}
